@@ -15,6 +15,28 @@
     * how to change a field to upper case:
         * `awk -F: '{print toupper($1)}'`
 ## cat
+* Description:  
+  * Used for seeing the content of a file. Also used for concatinating files.
+* Syntax/Formula:
+  * `cat + option + file or files to view/concatinate`
+* Examples:
+  * How to see the content of a file:
+    * `cat /etc/passwd`
+  * How to see the content of a file with line numbers:
+    * `cat -n /etc/passwd`
+  * How to see the content of a file with endling line character
+    * `cat -E /etc/passwd`
+    * Command Output:
+```
+gnome-initial-setup:x:125:65534::/run/gnome-initial-setup/:/bin/false$
+hplip:x:126:7:HPLIP system user,,,:/run/hplip:/bin/false$
+gdm:x:127:133:Gnome Display Manager:/var/lib/gdm3:/bin/false$
+raalberto:x:1000:1000:raalberto,,,:/home/raalberto:/bin/bash$
+vboxadd:x:999:1::/var/run/vboxadd:/bin/false$
+fwupd-refresh:x:128:136:fwupd-refresh user,,,:/run/systemd:/usr/sbin/nologin$
+_flatpak:x:129:138:Flatpak system-wide installation helper,,,:/nonexistent:/usr/sbin/nologin$
+sshd:x:130:65534::/run/sshd:/usr/sbin/nologin$
+```
 ## cp
 ## cut
 ## grep
